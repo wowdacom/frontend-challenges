@@ -1,0 +1,28 @@
+{
+  "name": "frontend-challenges",
+  "version": "1.0.0",
+  "description": "daily front end challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mustache dataView.json myTemplate.mustache > mustache.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowdacom/frontend-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wowdacom/frontend-challenges/issues"
+  },
+  "homepage": "https://github.com/wowdacom/frontend-challenges#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "underscore": "^1.9.0"
+  },
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  }
+}
